@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Image Gallery | Lighting Technology</title>
+		<!-- link or import CSS here -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+        <script>
+		<!--	alert('Embedded JavaScript'); -->
+		</script>
+	</head>
+	<body>
+		<div id="page">
+			<h1>Image Gallery | Lighting Technology</h1>
+			<ul id="imagegallery">
+				<li>
+					<a href="images/incandescent.jpg" title="Incandescent bulb">Incandescent bulb</a>
+				</li>
+				<li>
+					<a href="images/cfl.jpg" title="Compact flourescent bulb">CFL bulb</a>
+				</li>
+				<li>
+					<a href="images/led.jpg" title="LED bulb">LED bulb</a>
+				</li>
+			</ul>
+			<img id="placeholder" src="images/incandescent.jpg" alt="Incandescent bulb" />
+			<p id="description" onclick="alert('Onclick event.')">Click on one of the above links for more information.</p>
+		</div>
+		<!-- 
+		IMAGE CREDITS
+		http://www.flickr.com/photos/zetson/3036254720/ - Warhol's Light Bulbs
+		http://www.flickr.com/photos/schodts/1375465054/ - Fluorescent ^2 IMG_003
+		Image courtesy Philips corporation
+		-->
+		<!-- attach the external JavaScript library here -- CDN = Content Distribution Network -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<!-- attach the local JavaScript file here -->
+        <script src="js/gallery_jquery.js"></script>
+		<script>
+		<!--	alert('Inline JavaScript'); -->
+		</script>
+	</body>
+</html>
